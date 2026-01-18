@@ -8,9 +8,21 @@
     <script src="app.js" defer></script>
 </head>
 <body>
+    <main>
     <div>
         <div id = 'thumbnails' class = 'thumbnails'></div>
-        <div id = 'display'></div>
+        <div id = 'display-container'>
+
+             <button id="prev-arrow" class="round-arrow" aria-label="Previous 
+      image">&#10094;</button>
+    
+               <div id="display" aria-live="polite"></div>
+   
+                <button id="next-arrow" class="round-arrow" aria-label="Next image">
+      &#10095;</button>
+
+        </div>
     </div>
+    </main>
 </body>
 </html>

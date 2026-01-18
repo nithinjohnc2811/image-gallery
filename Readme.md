@@ -1,0 +1,1 @@
+This image gallery demo app focuses on making the web app responsive using media queries.It also follows all the accessibility best practises.
